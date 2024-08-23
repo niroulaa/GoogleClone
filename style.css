@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1f1f1f;
+  height: 100%;
+}
+nav {
+  margin-top: 0px;
+
+  padding: 6px;
+}
+
+.nav-whole-cont {
+  display: flex;
+}
+.enclosing-nav-comp {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.gmail,
+.images {
+  margin: 6px 6px 2px;
+  color: white;
+  text-decoration: none;
+}
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 10%;
+}
+img:hover {
+  cursor: pointer;
+}
+.logos-nav {
+  margin-left: 4px;
+  margin-right: 6px;
+  word-spacing: 12px;
+}
+.g-image,
+.i-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 23px;
+  font-family: arial, sans-serif;
+  font-size: smaller;
+}
+.i-image:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.g-image:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 92px;
+  font-weight: 500;
+  letter-spacing: -6px;
+}
+.google-logo {
+  height: fit-content;
+  width: fit-content;
+  margin: 90px auto 100px;
+}
+.input-field {
+  height: 46px;
+  margin-top: 36px;
+}
+.user-input {
+  width: 39vw;
+  background-color: #ffffff;
+  border: none;
+  padding-left: 32px;
+}
+.user-input::placeholder {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: larger;
+}
+.field-second-icon {
+  width: 5vw;
+  background-color: #ffffff;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.field-first-icon {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 2vw;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+.shortcut-parent {
+  display: flex;
+
+  margin-top: 28px;
+  height: 35vh;
+}
+.shortcut-first-child {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35vh;
+  margin: 0 auto;
+  width: 30vw;
+}
+.shortcuts {
+  margin: 5px auto 0px auto;
+  border: solid #1f1f1f;
+  border-radius: 10%;
+
+  height: 90px;
+  width: 90px;
+  display: flex;
+
+  background-color: #1f1f1f;
+}
+.shortcuts:hover {
+  background-color: gray;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icon-surround {
+  height: 50px;
+  width: 50px;
+  background-color: #252525;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-of-shortcuts {
+  height: 23px;
+  width: 90px;
+  /* border: solid blue; */
+  margin-top: auto;
+  margin-left: -70px;
+}
+
+.icon-surround-parent {
+  /* border: solid red; */
+  width: 90px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: white;
+}
